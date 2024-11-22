@@ -1,0 +1,260 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mainText{
+    font-size: 50px;
+    font-weight:600;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#subText{
+    font-size: 25px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+#rightBox{
+    margin-top: 20px;
+    height: auto;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid; 
+    border-image: linear-gradient(to right, blue, red) 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#topBar{
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.topLink{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+#whiteLine{
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: white;
+}
+
+#contribute{
+    background: linear-gradient(to right, red, blue); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+a{
+    text-decoration: none;
+}
+
+.topLink:hover{
+    background: linear-gradient(to right, red, blue); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.boardObj{
+    height: 100px;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+}
+.boardObjGray{
+    height: 100px;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(8, 8, 8);
+}
+
+.leftSide{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.albumCover{
+    height: 75px;
+    margin-right: 15px;
+}
+
+.songName{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.artistName{
+    font-size: 25px;
+}
+
+.songDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.deleteButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    filter: brightness(0.5);
+}
+
+.deleteButton:hover{
+    filter: brightness(1);
+}
+
+.delete{
+    height: 45px;
+    margin-right: 20px;
+}
+
+#mainArea{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#leftSpace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rightSpace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#addTitle{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#deleteTitle{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#searchBar {
+    color: white;
+    width: 400px;
+    padding: 25px;
+    border: 2px solid;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: #131313;
+    height: 30px;
+    margin-top: 150px;
+}
+
+#searchButton {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 2px solid;
+    background-color: #131313;
+    border-color: rgb(0, 221, 0);
+    margin-left: 20px;
+    height: 65px;
+    margin-top: 160px;
+}
+
+#searchButton:hover {
+    background-color: rgb(0, 221, 0, .8);
+}
+
+#leftBox{
+    margin-top: 20px;
+    height: 600px;
+    width: 700px;
+    border: 3px solid;
+    border-image: linear-gradient(to right, red, blue) 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#possibleSongs{
+    width: 500px;
+    height: 100px;
+    margin-top: 40px;
+
+}
+
+#searchContainer{
+    display: flex;
+}
+
+.addObj{
+    height: 100px;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    display: none;
+}
+
+.albumCoverAdd{
+    height: 60px;
+    margin-right: 15px;
+}
+
+.songNameAdd{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.artistNameAdd{
+    font-size: 20px;
+}
+
+.songDetailsAdd{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.addButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    filter: brightness(0.5);
+}
+
+.addButton:hover{
+    filter: brightness(1);
+}
+
+.add{
+    height: 45px;
+    margin-right: 20px;
+}

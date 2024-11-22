@@ -1,0 +1,223 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mainText{
+    font-size: 50px;
+    font-weight:600;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#subText{
+    font-size: 25px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+#mainBox{
+    margin-top: 20px;
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid; 
+    border-image: linear-gradient(to right, blue, red) 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#topBar{
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.topLink{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+#whiteLine{
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: white;
+}
+
+#versus{
+    background: linear-gradient(to right, red, blue); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+a{
+    text-decoration: none;
+}
+
+.topLink:hover{
+    background: linear-gradient(to right, red, blue); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#topText{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#leftImg{
+    border: 4px solid blue;
+    width: 300px;
+}
+
+#leftDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#leftSong{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#leftArtist{
+    font-size: 23px;
+}
+
+#leftBigBox{
+    border: 4px solid blue;
+    height: 450px;
+    background-color: rgba(11, 11, 11, 0.663);
+}
+
+#leftContain{
+    margin: 20px;
+}
+
+#rightBigBox{
+    border: 4px solid red;
+    height: 450px;
+    background-color: rgba(11, 11, 11, 0.663);
+ 
+}
+#rightContain{
+    margin: 20px;
+}
+
+#rightImg{
+    border: 4px solid red;
+    width: 300px;
+}
+
+#rightDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#rightSong{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#rightArtist{
+    font-size: 23px;
+}
+
+#rightBigBox{
+    border: 4px solid red;
+    height: 450px;
+ 
+}
+#rightContain{
+    margin: 20px;
+}
+
+#topPart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+#bottomPart{
+    display: flex;
+    height: 100px;
+    width: 90%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#vs{
+    transform: scale(0.6)
+}
+
+#skip{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    bottom: 30px;
+    display: inline-block;
+    transition: filter 0.3s ease;
+    filter: brightness(0.5);
+}
+
+#leftBigBox:hover{
+    background-color: rgba(0, 0, 255, 0.605);
+}
+
+#rightBigBox:hover{
+    background-color: rgba(255, 0, 0, 0.605);
+}
+
+.skipButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    filter: brightness(0.5);
+}
+.skipButton:hover{
+    filter: brightness(3);
+}
+
+#leftButton{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+#rightButton{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.deleteButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    filter: brightness(0.5);
+}
+.deleteButton:hover{
+    filter: brightness(0.8);
+}
